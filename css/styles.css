@@ -1,0 +1,238 @@
+
+:root {
+    --primary-text-color: #757575;
+    --primary-white-color: #ffffff;
+    --primary-black-color: #000000;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+body {
+background-color: var(--primary-white-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    font-family: inherit;
+}
+    
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+    
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+    
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+/* ---------------------Header-------------------- */
+
+.header {
+    background-color: var(--primary-white-color);
+}
+
+.logo {
+    color: var(--primary-black-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.courrent {
+    color: var(--accent-color);
+}
+
+/* ---------------------Main-------------------- */
+
+/* Hero */
+
+.hero {
+    background-color: var(--footer-bg-color);
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Особенности */
+
+.peculiarities-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* Наша команда */
+
+.team {
+background-color: var(--secondary-bg-color);
+}
+
+.team-list .item {
+    background-color: var(--primary-white-color);
+}
+
+.team-list .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-list .position {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* ------------------Страница Портфолио----------------- */
+
+.button.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.projects .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .product {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* ---------------------Footer-------------------- */
+
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.footer .logo {
+    color: var(--primary-white-color);
+}
+
+.footer .logo:hover,
+.footer .logo:focus {
+    color:var(--accent-color);
+}
+
+.address-list .address.link {
+    color: var(--primary-white-color);
+}
+
+.address-list .mail.link,
+.address-list .tel.link {
+    color: var(--footer-contact-color);
+}
+
+.address-list .mail.link:hover,
+.address-list .mail.link:focus,
+.address-list .tel.link:hover,
+.address-list .tel.link:focus {
+    color:var(--accent-color);
+}
